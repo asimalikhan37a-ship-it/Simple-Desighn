@@ -1,25 +1,17 @@
-.ri-user-3-fill {
+.user{
     color: white;
-    gap: 20%;
-  
 }
-.ri-shopping-cart-2-fill{
-    color: white;
-    
+.user:hover{
+color: #ffbe33 !important;
 }
-.ri-search-2-line{
-    color: white;
-    
-}
-
-.hero{
+.hero {
     height: 100vh;
     background: url(./images/hero-bg.jpg);
     background-size: cover;
 }
 .btn{
     color: white;
-      display: inline-block;
+    display: inline-block;
     padding: 8px 30px;
     background-color: #ffbe33;
     color: #ffffff;
@@ -28,20 +20,10 @@
     transition: all 0.3s;
     border: none;
 }
-.home{
-        color: #ffbe33;
-            padding: 5px 20px;
-    color: #ffffff;
-    text-align: center;
-    text-transform: uppercase;
-    border-radius: 5px;
-    -webkit-transition: all 0.3s;
-    transition: all 0.3s;
-            padding: 5px 25px;
-        margin: 5px 0;
-            background-color: transparent;
-                box-sizing: border-box;
+.nav-link:hover {
+    color: #ffbe33 !important;
 }
-.nav-link:hover{
-color: #ffbe33 !important;
+.mian{
+    margin: 100px;
+    padding: 170px;
 }
